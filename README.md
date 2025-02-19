@@ -6,8 +6,9 @@ Installing Dependencies
 
 Ensure that all necessary Go dependencies are installed. Run the following command to download the dependencies specified in go.mod:
 
+```sh
 go mod tidy
-
+```
 This command updates the go.sum file with the checksums of the dependencies.
 Building the Application
 
