@@ -15,20 +15,22 @@ Building the Application
 Compile the Go application by running
 
 # this will generate binary file with filename following folder project name (api-contact-form)
+```sh
 go build 
-
+```
 or 
 
 # if you want ot create binary with custom filename you can use -o parameter
+```sh
 go build -o api-contact-form .
-
+```
 This command builds the application and outputs an executable named main.
 Running the Application
 
 Start the application locally using:
-
+```sh
 ./api-contact-form
-
+```
 
 💡
 
@@ -39,5 +41,6 @@ With the application running inside Docker containers, you can now test the API 
 Health Check
 
 Verify that the API is operational.
-
+```sh
 curl --location 'http://localhost:8080/health'
+```
